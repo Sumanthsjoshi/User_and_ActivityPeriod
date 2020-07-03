@@ -9,6 +9,6 @@ class User(models.Model):
         return self.user_id + ' : ' + self.real_name
 
 class ActivityPeriod(models.Model):
-    user = models.ForeignKey(User, models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     start_time = models.DateTimeField('start time')
     end_time = models.DateTimeField('end time')
