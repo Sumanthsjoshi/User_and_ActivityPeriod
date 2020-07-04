@@ -17,7 +17,6 @@ class ActivityPeriodView(viewsets.ModelViewSet):
 
     queryset = ActivityPeriod.objects.all()
     serializer_class = ActivitySerializer(many=True)
-    # queryset = serializer.data
 
 
 # User APIView class
