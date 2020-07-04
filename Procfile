@@ -1,1 +1,1 @@
-web: gunicorn User_and_ActivityPeriod.wsgi --log-file -
+web: gunicorn user-and-activityperiod.wsgi --log-file -
