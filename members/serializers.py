@@ -5,8 +5,6 @@ from .models import User, ActivityPeriod
 
 class ActivitySerializer(serializers.HyperlinkedModelSerializer):
     """Class for ActivityPeriod serializers"""
-    # # Define User related field
-    # user_id = serializers.ReadOnlyField(source='User.id')
 
     # ActivityPeriod Meta fields
     class Meta:
